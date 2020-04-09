@@ -74,48 +74,48 @@ public class ScansByHourOfDayCount {
         String sku2Id = productModel2.getProductId();
 
         LOGGER.info("[Step] - Create actions");
-        new Actions().createAction(1, sku1Id, "2019-01-01 00:00:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku1Id, "2019-01-01 00:00:00", "appId",
                 -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
-        new Actions().createAction(1, sku2Id, "2019-01-01 00:59:59", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku2Id, "2019-01-01 00:59:59", "appId",
                 -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
 
-        new Actions().createAction(1, sku1Id, "2019-01-01 01:00:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku1Id, "2019-01-01 01:00:00", "appId",
                 -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
-        new Actions().createAction(1, sku1Id, "2019-01-02 02:00:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku1Id, "2019-01-02 02:00:00", "appId",
                 -103.6650009, 30.36071657, "sensor", API_KEY, projectId);
-        new Actions().createAction(1, sku1Id, "2020-03-09 03:01:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku1Id, "2020-03-09 03:01:00", "appId",
                 27.5678, 53.8996, "sensor", API_KEY, projectId);
-        new Actions().createAction(1, sku1Id, "2020-03-08 04:15:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku1Id, "2020-03-08 04:15:00", "appId",
                 -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
-        new Actions().createAction(1, sku2Id, "2020-03-05 05:59:00", "UN7gsyt4NgwSFRwwR5beNtfe",
-                -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
-
-        new Actions().createAction(20, sku2Id, "2020-03-06 10:10:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku2Id, "2020-03-05 05:59:00", "appId",
                 -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
 
-        new Actions().createAction(1, sku1Id, "2020-03-09 12:12:00", "UN7gsyt4NgwSFRwwR5beNtfe",
-                -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
-        new Actions().createAction(1, sku1Id, "2020-03-08 13:13:00", "UN7gsyt4NgwSFRwwR5beNtfe",
-                -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
-        new Actions().createAction(1, sku1Id, "2020-02-23 14:14:00", "UN7gsyt4NgwSFRwwR5beNtfe",
-                -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
-        new Actions().createAction(1, sku1Id, "2020-02-10 15:15:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(20, sku2Id, "2020-03-06 10:10:00", "appId",
                 -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
 
-        new Actions().createAction(1, sku1Id, "2020-03-04 16:17:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku1Id, "2020-03-09 12:12:00", "appId",
+                -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
+        new Actions().createAction(1, sku1Id, "2020-03-08 13:13:00", "appId",
+                -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
+        new Actions().createAction(1, sku1Id, "2020-02-23 14:14:00", "appId",
+                -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
+        new Actions().createAction(1, sku1Id, "2020-02-10 15:15:00", "appId",
+                -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
+
+        new Actions().createAction(1, sku1Id, "2020-03-04 16:17:00", "appId",
                 -83.57997359, 41.67002626, "unknown", API_KEY, projectId);
-        new Actions().createAction(1, sku1Id, "2020-03-04 17:17:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku1Id, "2020-03-04 17:17:00", "appId",
                 -83.57997359, 41.67002626, "unknown", API_KEY, projectId);
-        new Actions().createAction(1, sku1Id, "2020-03-04 18:18:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku1Id, "2020-03-04 18:18:00", "appId",
                 -83.57997359, 41.67002626, "unknown", API_KEY, projectId);
-        new Actions().createAction(1, sku1Id, "2020-03-09 19:19:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku1Id, "2020-03-09 19:19:00", "appId",
                 -83.57997359, 41.67002626, "unknown", API_KEY, projectId);
 
-        new Actions().createAction(55, sku1Id, "2020-03-09 20:20:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(55, sku1Id, "2020-03-09 20:20:00", "appId",
                 -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
-        new Actions().createAction(1, sku1Id, "2020-03-09 21:21:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku1Id, "2020-03-09 21:21:00", "appId",
                 -83.57997359, 41.67002626, "sensor", API_KEY, projectId);
-        new Actions().createAction(1, sku2Id, "2020-02-25 22:22:00", "UN7gsyt4NgwSFRwwR5beNtfe",
+        new Actions().createAction(1, sku2Id, "2020-02-25 22:22:00", "appId",
                 -103.6650009, 30.36071657, "sensor", API_KEY, projectId);
 
         long startDate = DateConverterUtils.convertUtcToEpoch("2020-02-25 00:00:00");
