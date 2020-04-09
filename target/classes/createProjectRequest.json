@@ -1,0 +1,680 @@
+{
+  "name": "{{ projectName }}",
+  "description": "This is description of e2e project",
+  "startsAt": {{projectStartDate}},
+"endsAt": {{projectEndDate}},
+"imageUrl": "https://img2.fonwall.ru/o/oz/christmas-holidays-seasonal-kzjl.jpeg",
+"shortDomains": ["{{shortDomains}}"],
+"customFields": {
+"NumberOfSKUs": "5",
+"TotalUnits": "25000000",
+"defaultMapBoundary": {
+"maxLat": 72.674726,
+"maxLng": -48.109131,
+"minLat": 22.426263,
+"minLng": -182.368927
+},
+"regions": [
+{
+"country": "USA",
+"states": [
+{
+"abbreviation": "AL",
+"boundary": {
+"maxLat": 35.0041,
+"maxLng": -84.8927,
+"minLat": 30.1463,
+"minLng": -88.4743
+},
+"name": "Alabama"
+},
+{
+"abbreviation": "AK",
+"boundary": {
+"maxLat": 71.5232,
+"maxLng": -129.993,
+"minLat": 52.5964,
+"minLng": -169.9146
+},
+"name": "Alaska"
+},
+{
+"abbreviation": "AZ",
+"boundary": {
+"maxLat": 37.0004,
+"maxLng": -109.0475,
+"minLat": 31.3325,
+"minLng": -114.8126
+},
+"name": "Arizona"
+},
+{
+"abbreviation": "AR",
+"boundary": {
+"maxLat": 36.4997,
+"maxLng": -89.6594,
+"minLat": 33.0075,
+"minLng": -94.6198
+},
+"name": "Arkansas"
+},
+{
+"abbreviation": "CA",
+"boundary": {
+"maxLat": 42.0126,
+"maxLng": -114.1315,
+"minLat": 32.5121,
+"minLng": -124.6509
+},
+"name": "California"
+},
+{
+"abbreviation": "CO",
+"boundary": {
+"maxLat": 41.0006,
+"maxLng": -102.0424,
+"minLat": 36.9949,
+"minLng": -109.0489
+},
+"name": "Colorado"
+},
+{
+"abbreviation": "CT",
+"boundary": {
+"maxLat": 42.0511,
+"maxLng": -71.7874,
+"minLat": 40.9509,
+"minLng": -73.7272
+},
+"name": "Connecticut"
+},
+{
+"abbreviation": "DE",
+"boundary": {
+"maxLat": 39.8296,
+"maxLng": -74.8526,
+"minLat": 38.4482,
+"minLng": -75.7919
+},
+"name": "Delaware"
+},
+{
+"abbreviation": "DC",
+"boundary": {
+"maxLat": 39.031386,
+"maxLng": -76.867218,
+"minLat": 38.79164435,
+"minLng": -77.11979522
+},
+"name": "District Of Columbia"
+},
+{
+"abbreviation": "FL",
+"boundary": {
+"maxLat": 31.0035,
+"maxLng": -79.8198,
+"minLat": 24.3959,
+"minLng": -87.6256
+},
+"name": "Florida"
+},
+{
+"abbreviation": "GA",
+"boundary": {
+"maxLat": 34.9996,
+"maxLng": -80.696,
+"minLat": 30.3575,
+"minLng": -85.6082
+},
+"name": "Georgia"
+},
+{
+"abbreviation": "HI",
+"boundary": {
+"maxLat": 22.3386,
+"maxLng": -154.6271,
+"minLat": 18.71,
+"minLng": -160.3922
+},
+"name": "Hawaii"
+},
+{
+"abbreviation": "ID",
+"boundary": {
+"maxLat": 49.0018,
+"maxLng": -111.0471,
+"minLat": 41.9871,
+"minLng": -117.2372
+},
+"name": "Idaho"
+},
+{
+"abbreviation": "IL",
+"boundary": {
+"maxLat": 42.5116,
+"maxLng": -87.0213,
+"minLat": 36.9894,
+"minLng": -91.512
+},
+"name": "Illinois"
+},
+{
+"abbreviation": "IN",
+"boundary": {
+"maxLat": 41.7611,
+"maxLng": -84.809,
+"minLat": 37.7718,
+"minLng": -88.098
+},
+"name": "Indiana"
+},
+{
+"abbreviation": "IA",
+"boundary": {
+"maxLat": 43.5008,
+"maxLng": -90.1538,
+"minLat": 40.3622,
+"minLng": -96.6357
+},
+"name": "Iowa"
+},
+{
+"abbreviation": "KS",
+"boundary": {
+"maxLat": 40.0087,
+"maxLng": -94.6046,
+"minLat": 36.9927,
+"minLng": -102.0506
+},
+"name": "Kansas"
+},
+{
+"abbreviation": "KY",
+"boundary": {
+"maxLat": 39.1439,
+"maxLng": -82.0308,
+"minLat": 36.4931,
+"minLng": -89.5372
+},
+"name": "Kentucky"
+},
+{
+"abbreviation": "LA",
+"boundary": {
+"maxLat": 33.0225,
+"maxLng": -88.7421,
+"minLat": 28.8832,
+"minLng": -94.043
+},
+"name": "Louisiana"
+},
+{
+"abbreviation": "ME",
+"boundary": {
+"maxLat": 47.455,
+"maxLng": -66.8628,
+"minLat": 42.9182,
+"minLng": -71.0829
+},
+"name": "Maine"
+},
+{
+"abbreviation": "MD",
+"boundary": {
+"maxLat": 39.722,
+"maxLng": -74.8581,
+"minLat": 37.8889,
+"minLng": -79.4861
+},
+"name": "Maryland"
+},
+{
+"abbreviation": "MA",
+"boundary": {
+"maxLat": 42.889,
+"maxLng": -69.7398,
+"minLat": 41.159,
+"minLng": -73.5081
+},
+"name": "Massachusetts"
+},
+{
+"abbreviation": "MI",
+"boundary": {
+"maxLat": 48.3042,
+"maxLng": -82.1221,
+"minLat": 41.6965,
+"minLng": -90.4175
+},
+"name": "Michigan"
+},
+{
+"abbreviation": "MN",
+"boundary": {
+"maxLat": 49.3877,
+"maxLng": -89.4919,
+"minLat": 43.5008,
+"minLng": -97.2304
+},
+"name": "Minnesota"
+},
+{
+"abbreviation": "MS",
+"boundary": {
+"maxLat": 35.0075,
+"maxLng": -88.0994,
+"minLat": 30.0905,
+"minLng": -91.6589
+},
+"name": "Mississippi"
+},
+{
+"abbreviation": "MO",
+"boundary": {
+"maxLat": 40.6181,
+"maxLng": -89.1005,
+"minLat": 35.9958,
+"minLng": -95.7527
+},
+"name": "Missouri"
+},
+{
+"abbreviation": "MT",
+"boundary": {
+"maxLat": 48.9991,
+"maxLng": -104.0186,
+"minLat": 44.3563,
+"minLng": -116.0458
+},
+"name": "Montana"
+},
+{
+"abbreviation": "NE",
+"boundary": {
+"maxLat": 43.0006,
+"maxLng": -95.3091,
+"minLat": 39.9992,
+"minLng": -104.0543
+},
+"name": "Nebraska"
+},
+{
+"abbreviation": "NV",
+"boundary": {
+"maxLat": 42.0003,
+"maxLng": -114.0436,
+"minLat": 35.003,
+"minLng": -120.0037
+},
+"name": "Nevada"
+},
+{
+"abbreviation": "NH",
+"boundary": {
+"maxLat": 45.3058,
+"maxLng": -70.5583,
+"minLat": 42.6986,
+"minLng": -72.5592
+},
+"name": "New Hampshire"
+},
+{
+"abbreviation": "NJ",
+"boundary": {
+"maxLat": 41.3593,
+"maxLng": -73.8885,
+"minLat": 38.8472,
+"minLng": -75.5708
+},
+"name": "New Jersey"
+},
+{
+"abbreviation": "NM",
+"boundary": {
+"maxLat": 36.9982,
+"maxLng": -103.0023,
+"minLat": 31.3337,
+"minLng": -109.0489
+},
+"name": "New Mexico"
+},
+{
+"abbreviation": "NY",
+"boundary": {
+"maxLat": 45.0153,
+"maxLng": -71.7517,
+"minLat": 40.4772,
+"minLng": -79.7624
+},
+"name": "New York"
+},
+{
+"abbreviation": "NC",
+"boundary": {
+"maxLat": 36.588,
+"maxLng": -75.4129,
+"minLat": 33.7666,
+"minLng": -84.3201
+},
+"name": "North Carolina"
+},
+{
+"abbreviation": "ND",
+"boundary": {
+"maxLat": 48.9982,
+"maxLng": -96.5671,
+"minLat": 45.934,
+"minLng": -104.0501
+},
+"name": "North Dakota"
+},
+{
+"abbreviation": "OH",
+"boundary": {
+"maxLat": 42.321,
+"maxLng": -80.5188,
+"minLat": 38.3761,
+"minLng": -84.8172
+},
+"name": "Ohio"
+},
+{
+"abbreviation": "OK",
+"boundary": {
+"maxLat": 37.0015,
+"maxLng": -94.4357,
+"minLat": 33.6386,
+"minLng": -103.0064
+},
+"name": "Oklahoma"
+},
+{
+"abbreviation": "OR",
+"boundary": {
+"maxLat": 46.2891,
+"maxLng": -116.4606,
+"minLat": 41.9952,
+"minLng": -124.7305
+},
+"name": "Oregon"
+},
+{
+"abbreviation": "PA",
+"boundary": {
+"maxLat": 42.5167,
+"maxLng": -74.707,
+"minLat": 39.7199,
+"minLng": -80.5243
+},
+"name": "Pennsylvania"
+},
+{
+"abbreviation": "PR",
+"boundary": {
+"maxLat": 18.520551,
+"maxLng": -65.177765,
+"minLat": 17.904834,
+"minLng": -67.289886
+},
+"name": "Puerto Rico"
+},
+{
+"abbreviation": "RI",
+"boundary": {
+"maxLat": 42.0156,
+"maxLng": -71.0541,
+"minLat": 41.1849,
+"minLng": -71.9041
+},
+"name": "Rhode Island"
+},
+{
+"abbreviation": "SC",
+"boundary": {
+"maxLat": 35.2075,
+"maxLng": -78.4836,
+"minLat": 32.0453,
+"minLng": -83.3588
+},
+"name": "South Carolina"
+},
+{
+"abbreviation": "SD",
+"boundary": {
+"maxLat": 45.9435,
+"maxLng": -96.438,
+"minLat": 42.4772,
+"minLng": -104.0529
+},
+"name": "South Dakota"
+},
+{
+"abbreviation": "TN",
+"boundary": {
+"maxLat": 36.6871,
+"maxLng": -81.6518,
+"minLat": 34.9884,
+"minLng": -90.3131
+},
+"name": "Tennessee"
+},
+{
+"abbreviation": "TX",
+"boundary": {
+"maxLat": 36.5008,
+"maxLng": -93.5074,
+"minLat": 25.8419,
+"minLng": -106.6168
+},
+"name": "Texas"
+},
+{
+"abbreviation": "UT",
+"boundary": {
+"maxLat": 41.9993,
+"maxLng": -109.0462,
+"minLat": 36.9982,
+"minLng": -114.0504
+},
+"name": "Utah"
+},
+{
+"abbreviation": "VT",
+"boundary": {
+"maxLat": 45.0153,
+"maxLng": -71.4949,
+"minLat": 42.7289,
+"minLng": -73.4381
+},
+"name": "Vermont"
+},
+{
+"abbreviation": "VA",
+"boundary": {
+"maxLat": 39.4659,
+"maxLng": -74.9707,
+"minLat": 36.5427,
+"minLng": -83.6753
+},
+"name": "Virginia"
+},
+{
+"abbreviation": "WA",
+"boundary": {
+"maxLat": 49.0027,
+"maxLng": -116.9165,
+"minLat": 45.5439,
+"minLng": -124.8679
+},
+"name": "Washington"
+},
+{
+"abbreviation": "WV",
+"boundary": {
+"maxLat": 40.6338,
+"maxLng": -77.731,
+"minLat": 37.1953,
+"minLng": -82.6392
+},
+"name": "West Virginia"
+},
+{
+"abbreviation": "WI",
+"boundary": {
+"maxLat": 47.31,
+"maxLng": -86.2523,
+"minLat": 42.4954,
+"minLng": -92.8564
+},
+"name": "Wisconsin"
+},
+{
+"abbreviation": "WY",
+"boundary": {
+"maxLat": 44.9998,
+"maxLng": -104.0556,
+"minLat": 40.9986,
+"minLng": -111.0539
+},
+"name": "Wyoming"
+}
+]
+},
+{
+"country": "Canada",
+"states": [
+{
+"abbreviation": "AB",
+"boundary": {
+"maxLat": 60.000422,
+"maxLng": -110.005078,
+"minLat": 48.996677,
+"minLng": -120.001341
+},
+"name": "Alberta"
+},
+{
+"abbreviation": "BC",
+"boundary": {
+"maxLat": 60.002048,
+"maxLng": -114.053857,
+"minLat": 48.224554,
+"minLng": -139.06111
+},
+"name": "British Columbia"
+},
+{
+"abbreviation": "MB",
+"boundary": {
+"maxLat": 59.99922,
+"maxLng": -88.962012,
+"minLat": 48.998869,
+"minLng": -102.007591
+},
+"name": "Manitoba"
+},
+{
+"abbreviation": "NB",
+"boundary": {
+"maxLat": 48.220603,
+"maxLng": -63.678231,
+"minLat": 44.469141,
+"minLng": -69.053405
+},
+"name": "New Brunswick"
+},
+{
+"abbreviation": "NL",
+"boundary": {
+"maxLat": 60.377706,
+"maxLng": -52.538821,
+"minLat": 46.515121,
+"minLng": -67.821685
+},
+"name": "Newfoundland and Labrador"
+},
+{
+"abbreviation": "NT",
+"boundary": {
+"maxLat": 79.228256,
+"maxLng": -102.000499,
+"minLat": 59.99817,
+"minLng": -141.0868924
+},
+"name": "Northwest Territories"
+},
+{
+"abbreviation": "NS",
+"boundary": {
+"maxLat": 47.32581,
+"maxLng": -59.594194,
+"minLat": 43.295964,
+"minLng": -66.490861
+},
+"name": "Nova Scotia"
+},
+{
+"abbreviation": "NU",
+"boundary": {
+"maxLat": 83.435924,
+"maxLng": -59.514526,
+"minLat": 51.173603,
+"minLng": -120.683023
+},
+"name": "Nunavut"
+},
+{
+"abbreviation": "ON",
+"boundary": {
+"maxLat": 56.959311,
+"maxLng": -74.320106,
+"minLat": 41.676428,
+"minLng": -95.153671
+},
+"name": "Ontario"
+},
+{
+"abbreviation": "PE",
+"boundary": {
+"maxLat": 47.160418,
+"maxLng": -61.886541,
+"minLat": 45.859695,
+"minLng": -64.517848
+},
+"name": "Prince Edward Island"
+},
+{
+"abbreviation": "QC",
+"boundary": {
+"maxLat": 62.580486,
+"maxLng": -57.085354,
+"minLat": 44.991358,
+"minLng": -79.774135
+},
+"name": "Quebec"
+},
+{
+"abbreviation": "SK",
+"boundary": {
+"maxLat": 59.999441,
+"maxLng": -101.36199,
+"minLat": 48.999474,
+"minLng": -110.006365
+},
+"name": "Saskatchewan"
+},
+{
+"abbreviation": "YT",
+"boundary": {
+"maxLat": 69.647689,
+"maxLng": -123.810229,
+"minLat": 59.998542,
+"minLng": -141.002678
+},
+"name": "Yukon Territory"
+}
+]
+}
+]
+}
+}

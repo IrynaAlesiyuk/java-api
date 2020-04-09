@@ -1,0 +1,10 @@
+{
+  "name": "{{productName}}",
+  "description": "Product description",
+  "brand": "Test brand name",
+  "identifiers": {},
+  "tags": [
+    "test"
+  ],
+  "customFields": {}
+}

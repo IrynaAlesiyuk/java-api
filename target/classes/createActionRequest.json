@@ -1,0 +1,25 @@
+{
+  "type": "scans",
+  "product": "{{productId}}",
+  "user" : "UN7gtnQWrgwSFRwaw5xfeb4b",
+  "timestamp": {{actionDate}},
+  "createdByApp" : "{{app}}",
+  "scope" : [
+    "Ur7Xsc93NgabkaRRwKbB7tCaP",
+    "U7ND9NCH7gaxkwaRaKxWfbarU"
+  ],
+
+  "location" : {
+    "position" : {
+      "type" : "Point",
+      "coordinates" : [
+        {{longitude}},
+        {{latitude}}
+      ]
+    }
+  },
+  "locationSource":"{{locationSource}}",
+  "tags": [
+    "test"
+  ]
+}
