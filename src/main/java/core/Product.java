@@ -8,22 +8,25 @@ import org.jtwig.JtwigModel;
 import org.jtwig.JtwigTemplate;
 
 import static io.restassured.RestAssured.with;
+import static org.apache.http.HttpHeaders.AUTHORIZATION;
+import static org.apache.http.HttpHeaders.CONTENT_TYPE;
+import static org.apache.http.entity.ContentType.APPLICATION_JSON;
 
 public class Product {
 
     private static final Logger LOGGER = LogManager.getLogger(Product.class.getName());
+    private final JtwigTemplate JSON_BODY = JtwigTemplate.classpathTemplate("createProductRequest.json");
 
     public ProductModel createProduct(String productName, String apiKey, String projectId) {
-        JtwigTemplate jsonBody =
-                JtwigTemplate.classpathTemplate("createProductRequest.json");
+
         JtwigModel model =
                 JtwigModel.newModel()
                         .with("productName", productName);
-        ValidatableResponse response = with().body(jsonBody.render(model))
+        ValidatableResponse response = with().body(JSON_BODY.render(model))
                 .when()
-                .header("Authorization", apiKey)
-                .header("Content-Type", "application/json")
-                .request("POST", "/products?project=" + projectId)
+                .header(AUTHORIZATION, apiKey)
+                .header(CONTENT_TYPE, APPLICATION_JSON)
+                .post("/products?project=" + projectId)
                 .then()
                 .statusCode(201);
         ProductModel productModel = new ProductModel();

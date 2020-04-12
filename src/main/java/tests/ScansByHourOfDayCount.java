@@ -5,6 +5,7 @@ import core.Product;
 import core.Project;
 import core.metrics.ScansByHourOfDayCountMetric;
 import db.MongoDbClient;
+import db.MongoMethods;
 import io.restassured.RestAssured;
 import models.ProductModel;
 import models.ProjectModel;
@@ -53,8 +54,9 @@ public class ScansByHourOfDayCount {
     @AfterMethod
     public void clearDb() {
         LOGGER.info("[Step] - Clear actions from DB");
-        mongoDbClient.deleteActionsFromDb1ByProjectId(DB_URL, CREATED_BY_PROJECT_ID, PROJECT_ID, projectModel.getProjectId());
-        mongoDbClient.deleteActionsFromDb2ByProjectId(DB_URL, CREATED_BY_PROJECT_ID, projectModel.getProjectId());
+        MongoMethods mongoMethods = new MongoMethods();
+        mongoMethods.deleteActionsFromDb1ByProjectId(DB_URL, CREATED_BY_PROJECT_ID, PROJECT_ID, projectModel.getProjectId());
+        mongoMethods.deleteActionsFromDb2ByProjectId(DB_URL, CREATED_BY_PROJECT_ID, projectModel.getProjectId());
         mongoDbClient.closeConnection();
     }
 

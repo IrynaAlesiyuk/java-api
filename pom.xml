@@ -12,6 +12,7 @@
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
         <maven.compiler.source>9</maven.compiler.source>
         <maven.compiler.target>9</maven.compiler.target>
+        <maven.surefire.plugin.version>3.0.0-M4</maven.surefire.plugin.version>
         <junit.version>4.13</junit.version>
         <awaitility.version>3.0.0</awaitility.version>
         <awaitility.proxy.version>3.0.0</awaitility.proxy.version>
@@ -22,6 +23,15 @@
         <okhttp.version>4.3.1</okhttp.version>
         <log4j.api.version>2.13.0</log4j.api.version>
         <log4j.core.version>2.13.0</log4j.core.version>
+        <mongo.java-driver.version>2.12.3</mongo.java-driver.version>
+        <mongo.collections.version>1.4</mongo.collections.version>
+        <json.path.version>2.4.0</json.path.version>
+        <jackson.core.version>2.10.2</jackson.core.version>
+        <lombok.version>1.18.10</lombok.version>
+        <jaxb.api.version>2.2.11</jaxb.api.version>
+        <jaxb.core.version>2.2.11</jaxb.core.version>
+        <jaxb.impl.version>2.2.11</jaxb.impl.version>
+        <activation.version>1.1.1</activation.version>
     </properties>
 
     <build>
@@ -44,7 +54,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M4</version>
+                <version>${maven.surefire.plugin.version}</version>
             </plugin>
         </plugins>
     </build>
@@ -115,58 +125,32 @@
         <dependency>
             <groupId>org.mongodb</groupId>
             <artifactId>mongo-java-driver</artifactId>
-            <version>2.12.3</version>
+            <version>${mongo.java-driver.version}</version>
         </dependency>
         <dependency>
             <groupId>com.github.mongoutils</groupId>
             <artifactId>mongo-collections</artifactId>
-            <version>1.4</version>
+            <version>${mongo.collections.version}</version>
         </dependency>
-
 
         <!--Json-->
         <dependency>
             <groupId>com.jayway.jsonpath</groupId>
             <artifactId>json-path</artifactId>
-            <version>2.4.0</version>
+            <version>${json.path.version}</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
-            <version>2.10.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.datatype</groupId>
-            <artifactId>jackson-datatype-joda</artifactId>
-            <version>2.9.5</version>
-        </dependency>
-        <dependency>
-            <groupId>de.undercouch</groupId>
-            <artifactId>bson4jackson</artifactId>
-            <version>2.9.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>bson</artifactId>
-            <version>3.12.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.10.2</version>
+            <version>${jackson.core.version}</version>
         </dependency>
 
         <!--General-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.10</version>
+            <version>${lombok.version}</version>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-math3</artifactId>
-            <version>3.6.1</version>
         </dependency>
 
         <!-- Java 6 = JAX-B Version 2.0   -->
@@ -175,22 +159,22 @@
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
-            <version>2.2.11</version>
+            <version>${jaxb.api.version}</version>
         </dependency>
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-core</artifactId>
-            <version>2.2.11</version>
+            <version>${jaxb.core.version}</version>
         </dependency>
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-impl</artifactId>
-            <version>2.2.11</version>
+            <version>${jaxb.impl.version}</version>
         </dependency>
         <dependency>
             <groupId>javax.activation</groupId>
             <artifactId>activation</artifactId>
-            <version>1.1.1</version>
+            <version>${activation.version}</version>
         </dependency>
 
     </dependencies>
